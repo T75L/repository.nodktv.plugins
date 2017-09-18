@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.nodktv"
+       name="-[COLOR red]No[/COLOR][COLOR white]DK[/COLOR][COLOR blue]~TV[/COLOR]-"
+       version="2.2"
+       provider-name="[B]IPTV[/B]">
+  <requires>
+    <import addon="xbmc.python" version="2.7.0"/>
+  </requires>
+  <extension point="xbmc.service" library="service.py" start="startup" />
+  <extension point="xbmc.python.module" library="libs" />
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">TV not using openVPN</summary>
+    <description lang="en">[COLOR yellowgreen] Livestreams for [/COLOR]-[COLOR red]NO[/COLOR]-[COLOR white]DK[/COLOR]-[COLOR blue]TV[/COLOR]-[COLOR yellowgreen] Channels [/COLOR]</description>
+  </extension>
+</addon>
+
+  <requires>
+    <import addon="xbmc.python" version="2.7.0"/>
+  </requires>
+  <extension point="xbmc.service" library="service.py" start="startup" />
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Various Kodi tools</summary>
+    <description lang="en">Limit playlist times.</description>
+  </extension>
+</addon>
+</addons>
